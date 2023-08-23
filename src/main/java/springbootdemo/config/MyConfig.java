@@ -16,8 +16,8 @@ import java.lang.reflect.Type;
  * @date: 2022/5/16 15:35
  * @description:
  */
-@Configuration(proxyBeanMethods = false)
-//@Configuration
+//@Configuration(proxyBeanMethods = false)
+@Configuration
 //@Import({User.class,Pet.class})
 //@ConditionalOnMissingBean(name = "tom")
 public class MyConfig {
